@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+.container{
+	background: url(../images/doggo.jpg);
+	height:100vh;
+	width:100%;
+	background-size:cover;
+	overflow:hidden;
+	position:relative;
+}
+.container h1{
+	color:#fff;
+	text-align:center;
+	margin-top:23%;
+	font-weight:bold;
+}
+.container p{
+	color:#fff;
+	text-align:center;
+	font-weight:bold;
+}
+.container .btn.btn-light{
+	margin-left:43%;
+	margin-top:1%;
+	width:15%;
+	font-weight:medium;
+}
+.container .btn.btn-light:hover{
+	background-color:#bebebe;
+}
+
+
+.row{
+	display:flex;
+	flex-direction:row;
+	width:90%;
+	float:right;
+	margin-top:5%;
+}
+.row .img{
+	width:30%;
+}
+.row .img img{
+	width:100%;
+	height:100%;
+}
+.row .content{
+	width:50%;
+}
+
+@media screen and (max-width: 768px){
+	.container{
+	background: url(../images/doggo1.jpg);
+	height:70%;
+	width:100%;
+	background-size:cover;
+	overflow:hidden;
+	position:relative;
+}
+	.container h1{
+	color:#fff;
+	text-align:center;
+	margin-top:40%;
+	font-weight:bold;
+}
+.container .btn.btn-light{
+	margin-left:20%;
+	margin-top:1%;
+	width:60%;
+	font-weight:medium;
+}
+.container .btn.btn-light:hover{
+	background-color:#bebebe;
+}
+.row{
+	display:flex;
+	flex-direction:column;
+	width:100%;
+	float:right;
+	margin-top:5%;
+}
+.row .img{
+	width:90%;
+}
+.row .img img{
+	width:100%;
+	height:100%;
+}
+.row .content{
+	width:100%;
+}
+
+}
